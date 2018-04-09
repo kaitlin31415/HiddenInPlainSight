@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane prefHeight="776.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HIPS.Runner.FXMLDocumentController">
+   <content>
+      <AnchorPane id="AnchorPane" prefHeight="746.0" prefWidth="729.0" style="-fx-background-color: #F2EFDF;">
+          <children>
+              <Label fx:id="title" layoutX="32.0" layoutY="14.0" minHeight="16" minWidth="69" text="Hidden In Plain Sight Text Encryption" textFill="#1f1324">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <TabPane layoutX="6.0" layoutY="67.0" prefHeight="697.0" prefWidth="720.0" style="-fx-background-color: #F2EFDF; -fx-border-color: #F2EFDF;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="encryptTab" text="Encrypt">
+                     <content>
+                        <Pane prefHeight="794.0" prefWidth="720.0">
+                           <children>
+                              <Button fx:id="chooseImageButton" layoutX="34.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleOpenImgButtonAction" style="-fx-background-color: #9BBFAB;" text="Choose Image" textFill="#211426">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                              <Label fx:id="textHereLabel" layoutX="34.0" layoutY="32.0" text="Enter Text Here:" textFill="#211426" />
+                              <ScrollPane fx:id="encryptTextScrollPane" layoutX="34.0" layoutY="60.0" prefHeight="142.0" prefViewportHeight="140.0" prefViewportWidth="639.0" prefWidth="641.0">
+                                 <content>
+                                    <TextArea fx:id="encryptTextArea" prefHeight="140.0" prefWidth="639.0" />
+                                 </content>
+                              </ScrollPane>
+                              <Button fx:id="encryptButton" layoutX="34.0" layoutY="252.0" mnemonicParsing="false" onAction="#encryptButtonAction" style="-fx-background-color: #9BBFAB;" text="Encrypt" textFill="#211426">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                              <Label fx:id="imageTitle" layoutX="34.0" layoutY="323.0" text="Image Created:" textFill="#211426" />
+                              <ScrollPane fx:id="imvScrollPane" layoutX="35.0" layoutY="352.0" prefHeight="262.0" prefViewportHeight="263.0" prefViewportWidth="629.0" prefWidth="640.0">
+                                 <content>
+                                    <ImageView fx:id="imageViewSpot" fitHeight="259.0" fitWidth="636.0" pickOnBounds="true" preserveRatio="true" style="-fx-focus-traversable: #211426;" />
+                                 </content>
+                              </ScrollPane>
+                              <Button fx:id="saveImageButton" layoutX="34.0" layoutY="288.0" mnemonicParsing="false" onAction="#saveFileAction" style="-fx-background-color: #9BBFAB;" text="Save Image" textFill="#211426">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </content>
+                  </Tab>
+                <Tab text="Decrypt">
+                     <content>
+                        <Pane prefHeight="621.0" prefWidth="721.0">
+                           <children>
+                              <Label fx:id="decryptedTextLabel" layoutX="33.0" layoutY="146.0" text="Decrypted Text:" textFill="#211426" />
+                              <ScrollPane layoutX="33.0" layoutY="177.0" prefHeight="146.0" prefViewportHeight="144.0" prefViewportWidth="655.0" prefWidth="657.0">
+                                 <content>
+                                    <TextArea fx:id="decryptedTextArea" prefHeight="144.0" prefWidth="655.0" />
+                                 </content>
+                              </ScrollPane>
+                              <Button fx:id="decryptButton" layoutX="34.0" layoutY="90.0" mnemonicParsing="false" onAction="#decryptAction" style="-fx-background-color: #9BBFAB;" text="Decrypt" textFill="#211426">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                              <Button id="openFileButton" fx:id="openFileButton" layoutX="581.0" layoutY="30.0" mnemonicParsing="false" onAction="#handleOpenFileButtonAction" style="-fx-background-color: #9BBFAB;" text="Browse" textFill="#211426">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                              <Label fx:id="pathToFileLabel" layoutX="34.0" layoutY="32.0" text="Path To File" textFill="#211426" />
+                              <TextField fx:id="pathToFileTextField" layoutX="115.0" layoutY="30.0" prefHeight="25.0" prefWidth="445.0" />
+                           </children>
+                        </Pane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+          </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
