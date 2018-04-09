@@ -41,9 +41,9 @@ To Complie: type: javac HIPS/backend/*.java
 To Run: type: java HIPS.Runner.HiddenInPlainSight 
               into the cmd prompt and hit enter.
 
-You will be prompted: Hello!
-
-		      Do you want to Encrypt or Decrypt? Or Q to quit.
+You will be prompted:
+		Hello!
+		Do you want to Encrypt or Decrypt? Or Q to quit.
 
 From there follow the onscreen instructions to Encrypt or Decrypt. 
 
