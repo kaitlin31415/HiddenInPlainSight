@@ -39,7 +39,7 @@ From there follow the onscreen instructions to Encrypt or Decrypt.
 ### GUI 
 Open command prompt and set the directory to the HiddenInPlainSight file directory.
 
-Double click the the runme Windows batch file in the main directory. If you are on a unix machine, compile manually. 
+Double click the the runme Windows bat file in the main directory. If you are on a unix machine, compile manually. 
 
 The Gui will pop up.
 
