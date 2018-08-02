@@ -86,15 +86,15 @@ into the command prompt or terminal and hit enter.
 	(Figure 4 shows the resulting decrypted text after clicking “Decrypt”)
 	
 #### Figure 1
-![Figure1](ReadMeImgs/F1.png?raw=true)
+![Figure1](ReadMeImgs/F1.png)
 
 #### Figure 2
-![Figure2](ReadMeImgs/F2.png?raw=true)
+![Figure2](ReadMeImgs/F2.png)
 #### Figure 3 
-![Figure3](ReadMeImgs/F3.png?raw=true)
+![Figure3](ReadMeImgs/F3.png)
 
 #### Figure 4
-![Figure3](ReadMeImgs/F4.png?raw=true)
+![Figure3](ReadMeImgs/F4.png)
 
 
 
