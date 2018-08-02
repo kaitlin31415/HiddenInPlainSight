@@ -3,7 +3,7 @@ Hidden In Plain Sight
 This program allows the user to encrypt/hide text in images and decrypt/uncover text from images. 
 
 ### Dependencies:
-Make sure you have java 8.0 downloaded and set to your path. 
+Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to this folder. 
 ## Deployment:
 
 ### Text-Based 
@@ -41,7 +41,10 @@ Open command prompt and set the directory to the HiddenInPlainSight file directo
 
 Double click the the runme windows batch file in the main directory.
 
-The Gui will pop up. 
+The Gui will pop up.
+
+![Image of Gui](Images/2.png?raw=true)
+
 
 -or- 
 
@@ -64,6 +67,24 @@ To Run: Type:
 java HIPS.Runner.Gui
 ```    
 into the command prompt or terminal and hit enter.
+## Running the GUI
+1. Encrypting text
+	1. To encrypt text, first select the “Encrypt” tab if you have not already done so.
+	2. Enter your desired text into the text field.
+	3. You may choose to encrypt to a specific image by clicking the “Choose Image” button and selecting your image. Otherwise, a 			default image is used. (The default is a red 10x12 .png image.) 
+	4. Click the “Encrypt” button to encrypt the text to the image. Your image will be previewed in the lower box. 
+		(Figure 1 shows the resulting previewed image using the default image.)
+	5. To save the encrypted image, click “Save Image”. 
+	NOTE: You must save your image using either the .png or .jpg extension.
+	(Figure 2 shows the file explorer after clicking “Save Image”.)
+2. Decrypting an image
+	1. To decrypt an image, first select the “Encrypt” tab if you have not already done so.
+	2. Browse to the image you wish to decrypt by clicking the “Browse” button. 
+	NOTE: The selected image must have the .png or .jpg extension.
+	(Figure 3 shows the file explorer after clicking “Browse”.)
+	3.Click “Decrypt” to decrypt the image. The decrypted text will display in the box.
+	(Figure 4 shows the resulting decrypted text after clicking “Decrypt”)
+
 
 ## Testing 
 
