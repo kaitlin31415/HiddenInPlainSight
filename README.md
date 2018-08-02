@@ -3,7 +3,7 @@ Hidden In Plain Sight
 This program allows the user to encrypt/hide text in images and decrypt/uncover text from images. 
 
 ### Dependencies:
-Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to this folder. 
+Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to the main project folder. 
 ## Deployment:
 
 ### Text-Based 
