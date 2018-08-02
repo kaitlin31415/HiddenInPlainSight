@@ -43,7 +43,7 @@ Double click the the runme windows batch file in the main directory.
 
 The Gui will pop up.
 
-![Image of Gui](Images/2.png?raw=true)
+![Image of Gui](ReadMeImgs/BasicGui.png?raw=true)
 
 
 -or- 
