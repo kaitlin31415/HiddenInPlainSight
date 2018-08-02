@@ -9,17 +9,30 @@ Make sure you have java 8.0 downloaded and set to your path.
 ### Text-Based 
 Open command prompt and set the directory to the HiddenInPlainSight file directory.
 
-To Complie: type: javac HIPS/backend/*.java 
-                  into the cmd prompt and hit enter.
-            type: javac HIPS/Runner/*.java into the cmd prompt and hit enter.
+#### To Complie: 
+Type: 
+```
+javac HIPS/backend/*.java 
+```
+into the command prompt or terminal and hit enter.
+Type: 
+```
+javac HIPS/Runner/*.java 
+```
+into the command prompt or terminal and hit enter.
 	
-To Run: type: java HIPS.Runner.HiddenInPlainSight 
-              into the cmd prompt and hit enter.
+#### To Run: 
+Type:
+```
+java HIPS.Runner.HiddenInPlainSight 
+```
+into the command prompt or terminal and hit enter.
 
 You will be prompted:
+```
 		Hello!
 		Do you want to Encrypt or Decrypt? Or Q to quit.
-
+```
 From there follow the onscreen instructions to Encrypt or Decrypt. 
 
 
@@ -50,21 +63,27 @@ Open command prompt and set the directory to the HiddenInPlainSight file directo
 #### Windows:
 
 1. junit-4.12.jar and hamcrest-core-1.3.jar are already in the folder (you do not need to redownload these).
-2. Compile your code and the test code using the commands javac -cp .;junit-4.12.jar;hamcrest-core-1.3.jar HIPS/testing/*.java
-							  javac HIPS/backend/*.java 
-							  javac HIPS/Runner/*.java
- 
+2. Compile your code and the test code using the commands
+```
+javac -cp .;junit-4.12.jar;hamcrest-core-1.3.jar HIPS/testing/*.java
+javac HIPS/backend/*.java 
+javac HIPS/Runner/*.java
+``` 
 3. Run the test using the command java -cp .;junit-4.12.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore HIPS.testing.RunTesting
 
 #### Unix:
 
 1. junit-4.12.jar and hamcrest-core-1.3.jar are already in the folder (you do not need to redownload these).
-2. Compile your code and the test code using the commands javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar HIPS/testing/*.java
-							  javac HIPS/backend/*.java 
-							  javac HIPS/Runner/*.java
- 
-3. Run the test using the command java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore HIPS.testing.RunTesting
-
+2. Compile your code and the test code using the commands 
+```
+javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar HIPS/testing/*.java
+javac HIPS/backend/*.java 
+javac HIPS/Runner/*.java
+``` 
+3. Run the test using the command 
+```
+java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore HIPS.testing.RunTesting
+```
 
 
 
