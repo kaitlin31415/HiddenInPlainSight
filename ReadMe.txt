@@ -5,6 +5,7 @@ Dependencies:
 Make sure you have java8.0 downloaded and set to your path. 
 
 How to Run the Tests using junit:
+
 Open command prompt and set the directory to the HiddenInPlainSight file directory.
 
 Windows:

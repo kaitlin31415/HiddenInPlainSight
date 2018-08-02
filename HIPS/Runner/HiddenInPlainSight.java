@@ -47,7 +47,10 @@ public class HiddenInPlainSight {
                 System.out.println("Note: if on a windows machine use \\\\ instead of \\ for the path.");
                 System.out.println("");
                 String interumPath = kbReader.nextLine();
-                if ( (interumPath.length() < 3 && interumPath.length()>0) && !interumPath.substring(interumPath.length()-3).equals("png") && !interumPath.substring(interumPath.length()-3).equals("jpg")){
+                if ((interumPath.length() <= 3) && (interumPath.length() > 0)){
+					System.out.println("That is not a valid path.");
+				}	 
+                else if ((interumPath.length() > 3) && (!interumPath.substring(interumPath.length()-3).equals("png") && !interumPath.substring(interumPath.length()-3).equals("jpg"))){
 					System.out.println("That is not a valid path.");
 				}else{
 					System.out.println("Encrypting: " + myMessage);
@@ -67,8 +70,8 @@ public class HiddenInPlainSight {
 							myEncryptor.encrypt();
 							System.out.println("If you would like to save your image to a specific directory enter that directory now. If not hit enter.");
 							String p = kbReader.nextLine();
-                            if (!interumPath.equals("")){
-                                if (!(interumPath.substring(p.length()-1).equals("\\") || p.substring(interumPath.length()-1).equals("/"))){
+                            if (!(p.equals(""))){
+                                if (!(p.substring(p.length()-1).equals("\\") || p.substring(p.length()-1).equals("/"))){
 									System.out.println("Not a Valid Filepath, image saved to program source folder.");
                                 }
                                 
