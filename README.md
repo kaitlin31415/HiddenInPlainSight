@@ -30,8 +30,8 @@ into the command prompt or terminal and hit enter.
 
 You will be prompted:
 ```
-		Hello!
-		Do you want to Encrypt or Decrypt? Or Q to quit.
+Hello!
+Do you want to Encrypt or Decrypt? Or Q to quit.
 ```
 From there follow the onscreen instructions to Encrypt or Decrypt. 
 
@@ -48,12 +48,22 @@ The Gui will pop up.
 To run the Gui manually
 
 
-To Complie: type: javac HIPS/backend/*.java into the cmd prompt and hit enter. Type: javac HIPS/Runner/*.java into the cmd prompt and hit enter.
-	
-To Run: type: java HIPS.Runner.Gui
-              into the cmd prompt and hit enter.
+To Complie: Type: 
+```
+javac HIPS/backend/*.java
+```
+into the command prompt or terminal and hit enter. Type: 
+```
+javac HIPS/Runner/*.java 
+```
 
+into the command prompt or terminal and hit enter.
 
+To Run: Type: 
+```
+java HIPS.Runner.Gui
+```    
+into the command prompt or terminal and hit enter.
 
 ## Testing 
 
@@ -69,8 +79,10 @@ javac -cp .;junit-4.12.jar;hamcrest-core-1.3.jar HIPS/testing/*.java
 javac HIPS/backend/*.java 
 javac HIPS/Runner/*.java
 ``` 
-3. Run the test using the command java -cp .;junit-4.12.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore HIPS.testing.RunTesting
-
+3. Run the test using the command 
+```
+java -cp .;junit-4.12.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore HIPS.testing.RunTesting
+```
 #### Unix:
 
 1. junit-4.12.jar and hamcrest-core-1.3.jar are already in the folder (you do not need to redownload these).
