@@ -23,35 +23,6 @@ In order to get the letters in the correct order a clockwise traversal pattern a
 Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to the main project folder. 
 ## Deployment:
 
-### Text-Based 
-Open command prompt and set the directory to the HiddenInPlainSight file directory.
-
-#### To Complie: 
-Type: 
-```
-javac HIPS/backend/*.java 
-```
-into the command prompt or terminal and hit enter.
-Type: 
-```
-javac HIPS/Runner/*.java 
-```
-into the command prompt or terminal and hit enter.
-	
-#### To Run: 
-Type:
-```
-java HIPS.Runner.HiddenInPlainSight 
-```
-into the command prompt or terminal and hit enter.
-
-You will be prompted:
-```
-Hello!
-Do you want to Encrypt or Decrypt? Or Q to quit.
-```
-From there follow the onscreen instructions to Encrypt or Decrypt. 
-
 
 ### GUI 
 Open command prompt and set the directory to the HiddenInPlainSight file directory.
@@ -113,6 +84,34 @@ into the command prompt or terminal and hit enter.
 #### Figure 4
 ![Figure3](ReadMeImgs/F4.png)
 
+### Text-Based 
+Open command prompt and set the directory to the HiddenInPlainSight file directory.
+
+#### To Complie: 
+Type: 
+```
+javac HIPS/backend/*.java 
+```
+into the command prompt or terminal and hit enter.
+Type: 
+```
+javac HIPS/Runner/*.java 
+```
+into the command prompt or terminal and hit enter.
+	
+#### To Run: 
+Type:
+```
+java HIPS.Runner.HiddenInPlainSight 
+```
+into the command prompt or terminal and hit enter.
+
+You will be prompted:
+```
+Hello!
+Do you want to Encrypt or Decrypt? Or Q to quit.
+```
+From there follow the onscreen instructions to Encrypt or Decrypt. 
 
 
 ## Testing 
