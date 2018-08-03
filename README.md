@@ -3,7 +3,7 @@ Hidden In Plain Sight
 This program allows the user to encrypt/hide text in images and decrypt/uncover text from images. 
 
 ### Dependencies:
-Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to this folder. 
+Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to the main project folder. 
 ## Deployment:
 
 ### Text-Based 
@@ -39,14 +39,14 @@ From there follow the onscreen instructions to Encrypt or Decrypt.
 ### GUI 
 Open command prompt and set the directory to the HiddenInPlainSight file directory.
 
-Double click the the runme windows batch file in the main directory.
+Double click the the runme Windows bat file in the main directory. If you are on a unix machine, compile manually. 
 
 The Gui will pop up.
 
-![Image of Gui](Images/2.png?raw=true)
+![Image of Gui](ReadMeImgs/BasicGui.png?raw=true)
 
 
--or- 
+or 
 
 To run the Gui manually
 
@@ -71,7 +71,7 @@ into the command prompt or terminal and hit enter.
 1. Encrypting text
 	1. To encrypt text, first select the “Encrypt” tab if you have not already done so.
 	2. Enter your desired text into the text field.
-	3. You may choose to encrypt to a specific image by clicking the “Choose Image” button and selecting your image. Otherwise, a 			default image is used. (The default is a red 10x12 .png image.) 
+	3. You may choose to encrypt to a specific image by clicking the “Choose Image” button and selecting your image. Otherwise, a default image is used. (The default is a red 10x12 .png image.) 
 	4. Click the “Encrypt” button to encrypt the text to the image. Your image will be previewed in the lower box. 
 		(Figure 1 shows the resulting previewed image using the default image.)
 	5. To save the encrypted image, click “Save Image”. 
@@ -84,6 +84,18 @@ into the command prompt or terminal and hit enter.
 	(Figure 3 shows the file explorer after clicking “Browse”.)
 	3.Click “Decrypt” to decrypt the image. The decrypted text will display in the box.
 	(Figure 4 shows the resulting decrypted text after clicking “Decrypt”)
+	
+#### Figure 1
+![Figure1](ReadMeImgs/F1.png)
+
+#### Figure 2
+![Figure2](ReadMeImgs/F2.png)
+#### Figure 3 
+![Figure3](ReadMeImgs/F3.png)
+
+#### Figure 4
+![Figure3](ReadMeImgs/F4.png)
+
 
 
 ## Testing 
