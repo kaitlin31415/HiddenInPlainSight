@@ -2,6 +2,23 @@
 Hidden In Plain Sight 
 This program allows the user to encrypt/hide text in images and decrypt/uncover text from images. 
 
+## How it Works
+We take a picture and choose reference pixels to base the surrounding pixels around. Then through a randomized code, the ascii value of the letter is inserted into the Red Green and Blue values of the pixel. 
+
+An example would be:
+```
+Take Letter: A which has the ascii code 65
+If the code assigned at the bottom of the picture indicated a Red-Green-Blue transition of the pixel 
+based on a pixels values Red = 100, Blue = 200, Green= 100, 
+then the hundreds value of 65 (0) is added to the Red value, the tens value (6) is added to the Blue value, 
+and the ones value (5) is added to the Green value. This way there is minimal manipulation of the pixel colour. 
+
+So the new Pixel has RGB values Red = 100, Blue = 206, Green= 105. 
+```
+
+In order to get the letters in the correct order a clockwise traversal pattern around the reference pixel is used.  <br />Then moving to the next reference pixel.  <br />
+<img src="ReadMeImgs/arrows.png" width="400" height="400">
+
 ### Dependencies:
 Make sure you have java 8.0 downloaded and your path in command prompt or terminal is set to the main project folder. 
 ## Deployment:
